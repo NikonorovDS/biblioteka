@@ -1,22 +1,21 @@
 import time
 start_time = time.time()
 #test
-from cryptography import *
-
+from .cryptography import *
 str_a = input.input_strings['String_1']
 str_b = input.input_strings['String_2']
 str_c = input.input_strings['String_3']
 str_d = input.input_strings['String_4']
 
-str_a=del_string(str_a)
-str_b=del_string(str_b)
-str_c=del_string(str_c)
-str_d=del_string(str_d)
+str_a = del_string(str_a)
+str_b = del_string(str_b)
+str_c = del_string(str_c)
+str_d = del_string(str_d)
 
-strchr_a=string_chr(str_a)
-strchr_b=string_chr(str_b)
-strchr_c=string_chr(str_c)
-strchr_d=string_chr(str_d)
+strchr_a = string_chr(str_a)
+strchr_b = string_chr(str_b)
+strchr_c = string_chr(str_c)
+strchr_d = string_chr(str_d)
 
 key1='Has your daughter ever been to London?'
 key1chr=str_elements(key1)
